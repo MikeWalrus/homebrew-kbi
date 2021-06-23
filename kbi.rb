@@ -13,6 +13,10 @@ class Kbi < Formula
   depends_on "gtkmm4"
   depends_on "portaudio"
 
+  bottle do
+    sha256 cellar: :any, big_sur: "612a85f2aa92fcd5b12acfa8f60118b779a12914876e3ab475b21c1f8740634e"
+  end
+
   def install
     # ENV.deparallelize  # if your formula fails when building in parallel
     # Remove unrecognized options if warned by configure
