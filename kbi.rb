@@ -14,6 +14,7 @@ class Kbi < Formula
   depends_on "portaudio"
 
   bottle do
+    root_url "https://github.com/MikeWalrus/homebrew-kbi/releases/download/v0.1.0"
     sha256 cellar: :any, big_sur: "612a85f2aa92fcd5b12acfa8f60118b779a12914876e3ab475b21c1f8740634e"
   end
 
